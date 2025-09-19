@@ -12,7 +12,7 @@ time.sleep(1.5)
 
 pyautogui.FAILSAFE = True
 
-def  is_last_msg_from_sender(chat_log,sender_name="Smeet"):
+def  is_last_msg_from_sender(chat_log,sender_name="chatname"):
     messages = chat_log.strip().split('/2025]')[-1]
 
     if sender_name in messages:
@@ -43,7 +43,7 @@ while True:
     if is_last_msg_from_sender(chat_history):
 
 
-        genai.configure(api_key="AIzaSyDMXUywdnBgYzzffJWjjdfnkYYu1o6lFic")
+        genai.configure(api_key="your api")
 
         act_as_me = f"""Act as me,you are a person nammed nitesh who speaks hindi,gujarati as well as english.
             he is from india and is a coder.you analyze chat history and response like nitesh but dont response long answer just give short and

@@ -13,7 +13,7 @@ import musics
 import google.generativeai as genai 
 
 driver = None
-mynewsapi = "dda5eb54a59c4b0cab014cd9adc6671a"
+mynewsapi = "your api"
 
 # --- SAFER SPEAK FUNCTION ---
 def speak(text):
@@ -56,7 +56,7 @@ def speak(text):
 def aiprocess(command):
     """using gemini for other tasks."""
 
-    API_KEY = "AIzaSyDMXUywdnBgYzzffJWjjdfnkYYu1o6lFic"
+    API_KEY = "your api"
     genai.configure(api_key=API_KEY)
 
     generation_config = {

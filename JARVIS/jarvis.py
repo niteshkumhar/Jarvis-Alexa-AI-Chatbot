@@ -84,7 +84,7 @@ import google.generativeai as genai
 
 # Initializing pyttsx3
 # pytt = pyttsx3.init()
-mynewsapi = "dda5eb54a59c4b0cab014cd9adc6671a"
+mynewsapi = "your api key"
 # Function for speaking text
 # def speak(text):
 #     """Makes the computer speak the given text."""
@@ -116,7 +116,7 @@ def speak(text):
 def aiprocess(command):
     """using gemini for other tasks."""
 
-    API_KEY = "AIzaSyDMXUywdnBgYzzffJWjjdfnkYYu1o6lFic"
+    API_KEY = "your api key"
     genai.configure(api_key=API_KEY)
 
     model = genai.GenerativeModel("gemini-1.5-flash-latest")
